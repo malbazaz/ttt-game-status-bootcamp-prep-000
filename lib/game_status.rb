@@ -38,7 +38,7 @@ def draw?(board)
 end 
 
 def over?(board)
-  if board.none? do |boxo|
+  board.none? do |boxo|
     boxo="" || boxo=" "
   end 
 end 
