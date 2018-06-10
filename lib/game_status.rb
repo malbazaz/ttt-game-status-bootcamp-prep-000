@@ -28,3 +28,11 @@ def full?(board)
     noxo="X" || noxo="O"
   end   
 end 
+
+def draw?(board)
+  if full?(board) && won?(board)==false
+    true
+  else 
+    false 
+  end 
+end 
